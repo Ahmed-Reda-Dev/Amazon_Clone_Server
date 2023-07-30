@@ -7,7 +7,7 @@ require("dotenv").config();
 const auth = require("../middlewares/auth");
 
 // SIGN UP
-authRouter.post("/api/signup  ", async (req, res) => {
+authRouter.post("/api/signup", async (req, res) => {
   try {
     const { name, email, password } = req.body;
 
